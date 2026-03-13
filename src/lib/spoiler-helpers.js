@@ -33,6 +33,11 @@
       languageEn: "English",
       languageJa: "日本語",
       languageKo: "한국어",
+      aboutLabel: "關於",
+      aboutSourcePrefix: "檢視",
+      aboutSourceLink: "原始碼",
+      aboutIssuePrefix: "有 Bug 或建議？",
+      aboutIssueLink: "提交問題",
       logoAlt: "Threads Unmask logo"
     },
     "zh-Hans": {
@@ -60,6 +65,11 @@
       languageEn: "English",
       languageJa: "日本語",
       languageKo: "한국어",
+      aboutLabel: "关于",
+      aboutSourcePrefix: "查看",
+      aboutSourceLink: "源代码",
+      aboutIssuePrefix: "有 Bug 或建议？",
+      aboutIssueLink: "提交问题",
       logoAlt: "Threads Unmask logo"
     },
     en: {
@@ -87,6 +97,11 @@
       languageEn: "English",
       languageJa: "Japanese",
       languageKo: "Korean",
+      aboutLabel: "About",
+      aboutSourcePrefix: "View",
+      aboutSourceLink: "source code",
+      aboutIssuePrefix: "Found a bug or have an idea?",
+      aboutIssueLink: "Submit an issue",
       logoAlt: "Threads Unmask logo"
     },
     ja: {
@@ -114,6 +129,11 @@
       languageEn: "English",
       languageJa: "日本語",
       languageKo: "한국어",
+      aboutLabel: "情報",
+      aboutSourcePrefix: "",
+      aboutSourceLink: "ソースコードを見る",
+      aboutIssuePrefix: "不具合や提案がありますか？",
+      aboutIssueLink: "Issue を送信",
       logoAlt: "Threads Unmask logo"
     },
     ko: {
@@ -141,6 +161,11 @@
       languageEn: "English",
       languageJa: "日本語",
       languageKo: "한국어",
+      aboutLabel: "정보",
+      aboutSourcePrefix: "",
+      aboutSourceLink: "소스 코드 보기",
+      aboutIssuePrefix: "버그나 제안이 있나요?",
+      aboutIssueLink: "이슈 등록",
       logoAlt: "Threads Unmask logo"
     }
   };

@@ -166,6 +166,24 @@ h1 {
   font-weight: 600;
 }
 
+.about-footer {
+  margin-top: 18px;
+  color: rgba(94, 85, 77, 0.78);
+  font-size: 13px;
+  line-height: 1.7;
+  text-align: center;
+}
+
+.about-footer a {
+  color: rgba(94, 85, 77, 0.9);
+  font-weight: 700;
+  text-decoration: underline;
+}
+
+.about-divider {
+  margin: 0 6px;
+}
+
 @media (max-width: 640px) {
   .panel {
     padding: 24px;
