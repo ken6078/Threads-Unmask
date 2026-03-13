@@ -79,10 +79,20 @@ h1 {
   line-height: 1.6;
 }
 
+.section-heading {
+  margin-top: 28px;
+  margin-bottom: 10px;
+}
+
+.section-heading strong {
+  display: block;
+  font-size: 18px;
+}
+
 .settings {
   display: grid;
   gap: 16px;
-  margin-top: 28px;
+  margin-top: 0;
 }
 
 .setting {
