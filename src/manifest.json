@@ -3,6 +3,12 @@
   "name": "Threads Unmask",
   "description": "Automatically reveals spoiler-covered text or images on threads.com, with per-type controls.",
   "version": "1.0.0",
+  "icons": {
+    "16": "images/icon_16px.png",
+    "32": "images/icon_32px.png",
+    "48": "images/icon_64px.png",
+    "128": "images/icon_128px.png"
+  },
   "permissions": [
     "storage"
   ],
@@ -26,6 +32,12 @@
   "options_page": "options.html",
   "action": {
     "default_title": "Threads Unmask",
-    "default_popup": "popup.html"
+    "default_popup": "popup.html",
+    "default_icon": {
+      "16": "images/icon_16px.png",
+      "32": "images/icon_32px.png",
+      "48": "images/icon_64px.png",
+      "128": "images/icon_128px.png"
+    }
   }
 }
