@@ -39,6 +39,7 @@
       aboutSourceLink: "原始碼",
       aboutIssuePrefix: "有 Bug 或建議？",
       aboutIssueLink: "提交問題",
+      openSettings: "開啟設定頁",
       logoAlt: "Threads Unmask logo"
     },
     "zh-Hans": {
@@ -72,6 +73,7 @@
       aboutSourceLink: "源代码",
       aboutIssuePrefix: "有 Bug 或建议？",
       aboutIssueLink: "提交问题",
+      openSettings: "打开设置页",
       logoAlt: "Threads Unmask logo"
     },
     en: {
@@ -105,6 +107,7 @@
       aboutSourceLink: "source code",
       aboutIssuePrefix: "Found a bug or have an idea?",
       aboutIssueLink: "Submit an issue",
+      openSettings: "Open settings page",
       logoAlt: "Threads Unmask logo"
     },
     ja: {
@@ -138,6 +141,7 @@
       aboutSourceLink: "ソースコードを見る",
       aboutIssuePrefix: "不具合や提案がありますか？",
       aboutIssueLink: "Issue を送信",
+      openSettings: "設定ページを開く",
       logoAlt: "Threads Unmask logo"
     },
     ko: {
@@ -171,6 +175,7 @@
       aboutSourceLink: "소스 코드 보기",
       aboutIssuePrefix: "버그나 제안이 있나요?",
       aboutIssueLink: "이슈 등록",
+      openSettings: "설정 페이지 열기",
       logoAlt: "Threads Unmask logo"
     }
   };
@@ -246,6 +251,14 @@
       const key = element.dataset.i18nAlt;
       if (messages[key]) {
         element.setAttribute("alt", messages[key]);
+      }
+    }
+
+    for (const element of documentNode.querySelectorAll("[data-i18n-aria-label]")) {
+      const key = element.dataset.i18nAriaLabel;
+      if (messages[key]) {
+        element.setAttribute("aria-label", messages[key]);
+        element.setAttribute("title", messages[key]);
       }
     }
 

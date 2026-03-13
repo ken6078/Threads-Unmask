@@ -2,6 +2,7 @@ const { DEFAULT_SETTINGS, localizeDocument } = globalThis.ThreadsUnmaskCore;
 
 const textCheckbox = document.querySelector("#remove-text-spoilers");
 const imageCheckbox = document.querySelector("#remove-image-spoilers");
+const openOptionsButton = document.querySelector("#open-options");
 const status = document.querySelector("#status");
 let uiText = localizeDocument(document, DEFAULT_SETTINGS.uiLanguage, "popup");
 
@@ -33,3 +34,6 @@ chrome.storage.sync.get(DEFAULT_SETTINGS, (stored) => {
 
 textCheckbox.addEventListener("change", saveSettings);
 imageCheckbox.addEventListener("change", saveSettings);
+openOptionsButton.addEventListener("click", () => {
+  chrome.runtime.openOptionsPage();
+});
