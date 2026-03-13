@@ -1,0 +1,84 @@
+:root {
+  color-scheme: light;
+  --ink: #16110d;
+  --muted: #5e554d;
+  --panel: #fffaf3;
+  --border: rgba(22, 17, 13, 0.12);
+  --accent: #d55d31;
+  --accent-soft: rgba(213, 93, 49, 0.12);
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  min-width: 320px;
+  font-family: "Avenir Next", "Noto Sans TC", sans-serif;
+  color: var(--ink);
+  background:
+    radial-gradient(circle at top left, rgba(255, 189, 142, 0.38), transparent 28%),
+    linear-gradient(135deg, #f6f0e6, #ebe1d0 48%, #f3ede5);
+}
+
+.popup {
+  padding: 18px;
+  display: grid;
+  gap: 14px;
+}
+
+.eyebrow {
+  margin: 0 0 8px;
+  font-size: 11px;
+  font-weight: 700;
+  letter-spacing: 0.14em;
+  text-transform: uppercase;
+  color: var(--accent);
+}
+
+h1 {
+  margin: 0;
+  font-size: 22px;
+  line-height: 1.1;
+}
+
+.setting {
+  display: grid;
+  grid-template-columns: 20px 1fr;
+  gap: 12px;
+  align-items: start;
+  padding: 14px;
+  border: 1px solid var(--border);
+  border-radius: 16px;
+  background: var(--panel);
+  margin: 0;
+}
+
+.setting input {
+  width: 18px;
+  height: 18px;
+  margin-top: 2px;
+  accent-color: var(--accent);
+}
+
+.setting strong {
+  display: block;
+  font-size: 16px;
+}
+
+.setting small {
+  display: block;
+  margin-top: 4px;
+  color: var(--muted);
+  font-size: 13px;
+  line-height: 1.5;
+}
+
+.status {
+  min-height: 22px;
+  margin: 2px 0 0;
+  color: var(--accent);
+  font-size: 13px;
+  font-weight: 600;
+}

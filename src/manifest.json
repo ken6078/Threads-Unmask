@@ -1,0 +1,31 @@
+{
+  "manifest_version": 3,
+  "name": "Threads Unmask",
+  "description": "Automatically reveals spoiler-covered text or images on threads.com, with per-type controls.",
+  "version": "1.0.0",
+  "permissions": [
+    "storage"
+  ],
+  "host_permissions": [
+    "https://www.threads.com/*",
+    "https://threads.com/*"
+  ],
+  "content_scripts": [
+    {
+      "matches": [
+        "https://www.threads.com/*",
+        "https://threads.com/*"
+      ],
+      "js": [
+        "lib/spoiler-helpers.js",
+        "content.js"
+      ],
+      "run_at": "document_idle"
+    }
+  ],
+  "options_page": "options.html",
+  "action": {
+    "default_title": "Threads Unmask",
+    "default_popup": "popup.html"
+  }
+}

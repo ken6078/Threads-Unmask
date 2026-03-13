@@ -1,0 +1,35 @@
+<!doctype html>
+<html lang="zh-Hant">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Threads Unmask</title>
+    <link rel="stylesheet" href="popup.css" />
+  </head>
+  <body>
+    <main class="popup">
+      <p class="eyebrow">Threads Unmask</p>
+      <h1>防劇透設定</h1>
+      <label class="setting">
+        <input id="remove-text-spoilers" type="checkbox" />
+        <span>
+          <strong>移除文字防劇透</strong>
+          <small>在 Threads 自動顯示被遮住的文字。</small>
+        </span>
+      </label>
+
+      <label class="setting">
+        <input id="remove-image-spoilers" type="checkbox" />
+        <span>
+          <strong>移除圖片防劇透</strong>
+          <small>自動點開或移除劇透圖片外層遮罩。</small>
+        </span>
+      </label>
+
+      <p id="status" class="status" aria-live="polite"></p>
+    </main>
+
+    <script src="lib/spoiler-helpers.js"></script>
+    <script src="popup.js"></script>
+  </body>
+</html>

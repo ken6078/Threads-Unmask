@@ -1,0 +1,43 @@
+<!doctype html>
+<html lang="zh-Hant">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Threads Unmask Settings</title>
+    <link rel="stylesheet" href="options.css" />
+  </head>
+  <body>
+    <main class="page">
+      <section class="panel">
+        <p class="eyebrow">Chrome Extension</p>
+        <h1>Threads Unmask</h1>
+        <p class="intro">
+          自動移除 Threads 的文字與圖片防劇透遮罩。
+        </p>
+
+        <form id="settings-form" class="settings">
+          <label class="setting">
+            <input id="remove-text-spoilers" type="checkbox" />
+            <span>
+              <strong>移除文字防劇透</strong>
+              <small>自動顯示被遮住的文字內容。</small>
+            </span>
+          </label>
+
+          <label class="setting">
+            <input id="remove-image-spoilers" type="checkbox" />
+            <span>
+              <strong>移除圖片防劇透</strong>
+              <small>自動點開或拆除被標記為劇透的圖片遮罩。</small>
+            </span>
+          </label>
+        </form>
+
+        <p id="status" class="status" aria-live="polite"></p>
+      </section>
+    </main>
+
+    <script src="lib/spoiler-helpers.js"></script>
+    <script src="options.js"></script>
+  </body>
+</html>
