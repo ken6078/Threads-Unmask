@@ -10,13 +10,13 @@
     <main class="page">
       <section class="panel">
         <div class="hero">
-          <img class="logo" src="images/icon_128px.png" alt="Threads Unmask logo" />
+          <img class="logo" src="images/icon_128px.png" data-i18n-alt="logoAlt" alt="Threads Unmask logo" />
           <div>
-            <p class="eyebrow">Chrome Extension</p>
-            <h1>Threads Unmask</h1>
+            <p class="eyebrow" data-i18n-eyebrow>Chrome Extension</p>
+            <h1 data-i18n="headingOptions">Threads Unmask</h1>
           </div>
         </div>
-        <p class="intro">
+        <p class="intro" data-i18n="intro">
           自動移除 Threads 的文字與圖片防劇透遮罩。
         </p>
 
@@ -24,19 +24,38 @@
           <label class="setting">
             <input id="remove-text-spoilers" type="checkbox" />
             <span>
-              <strong>移除文字防劇透</strong>
-              <small>自動顯示被遮住的文字內容。</small>
+              <strong data-i18n="textLabel">移除文字防劇透</strong>
+              <small data-i18n-text-help>自動顯示被遮住的文字內容。</small>
             </span>
           </label>
 
           <label class="setting">
             <input id="remove-image-spoilers" type="checkbox" />
             <span>
-              <strong>移除圖片防劇透</strong>
-              <small>自動點開或拆除被標記為劇透的圖片遮罩。</small>
+              <strong data-i18n="imageLabel">移除圖片防劇透</strong>
+              <small data-i18n-image-help>自動點開或拆除被標記為劇透的圖片遮罩。</small>
             </span>
           </label>
         </form>
+
+        <section class="language-section" aria-labelledby="language-section-title">
+          <div class="language-heading">
+            <strong id="language-section-title" data-i18n="languageLabel">語言</strong>
+          </div>
+          <div class="setting setting-select">
+            <div class="setting-select-body">
+              <select id="ui-language" class="setting-select-input">
+                <option value="auto" data-i18n="languageAuto">跟隨瀏覽器</option>
+                <option value="zh-Hant" data-i18n="languageZhHant">繁體中文</option>
+                <option value="zh-Hans" data-i18n="languageZhHans">简体中文</option>
+                <option value="en" data-i18n="languageEn">English</option>
+                <option value="ja" data-i18n="languageJa">日本語</option>
+                <option value="ko" data-i18n="languageKo">한국어</option>
+              </select>
+              <small data-i18n-language-help>切換擴充套件介面語言，或跟隨瀏覽器語言自動調整。</small>
+            </div>
+          </div>
+        </section>
 
         <p id="status" class="status" aria-live="polite"></p>
       </section>

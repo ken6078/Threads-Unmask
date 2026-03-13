@@ -1,0 +1,11 @@
+{
+  "extensionName": {
+    "message": "Threads Unmask - 移除防劇透"
+  },
+  "extensionDescription": {
+    "message": "移除 Threads 上被防劇透遮住的文字與圖片，並可分別控制。"
+  },
+  "actionTitle": {
+    "message": "Threads Unmask - 移除防劇透"
+  }
+}

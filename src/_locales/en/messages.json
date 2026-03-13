@@ -1,0 +1,11 @@
+{
+  "extensionName": {
+    "message": "Threads Unmask - Remove Spoilers"
+  },
+  "extensionDescription": {
+    "message": "Reveal spoiler-covered text and images on Threads with separate controls."
+  },
+  "actionTitle": {
+    "message": "Threads Unmask - Remove Spoilers"
+  }
+}

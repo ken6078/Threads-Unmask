@@ -123,6 +123,41 @@ h1 {
   line-height: 1.5;
 }
 
+.language-section {
+  margin-top: 22px;
+}
+
+.language-heading {
+  margin-bottom: 10px;
+}
+
+.language-heading strong {
+  display: block;
+  font-size: 18px;
+}
+
+.setting-select {
+  display: block;
+}
+
+.setting-select-body {
+  display: block;
+}
+
+.setting-select-input {
+  width: 100%;
+  padding: 12px 14px;
+  border: 1px solid var(--border);
+  border-radius: 12px;
+  background: rgba(255, 255, 255, 0.86);
+  color: var(--ink);
+  font: inherit;
+}
+
+.setting-select-body small {
+  margin-top: 10px;
+}
+
 .status {
   min-height: 24px;
   margin: 18px 0 0;

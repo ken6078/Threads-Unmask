@@ -1,0 +1,11 @@
+{
+  "extensionName": {
+    "message": "Threads Unmask - ネタバレ解除"
+  },
+  "extensionDescription": {
+    "message": "Threads のネタバレ付きテキストや画像を表示し、個別に切り替えできます。"
+  },
+  "actionTitle": {
+    "message": "Threads Unmask - ネタバレ解除"
+  }
+}

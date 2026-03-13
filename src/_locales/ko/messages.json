@@ -1,0 +1,11 @@
+{
+  "extensionName": {
+    "message": "Threads Unmask - 스포일러 해제"
+  },
+  "extensionDescription": {
+    "message": "Threads에서 스포일러 처리된 텍스트와 이미지를 표시하고 각각 제어할 수 있습니다."
+  },
+  "actionTitle": {
+    "message": "Threads Unmask - 스포일러 해제"
+  }
+}

@@ -1,6 +1,6 @@
-# Threads Unmask
+# Threads Unmask - 移除防劇透
 
-Chrome extension for `threads.com` that automatically removes text spoiler covers.
+Chrome extension for `threads.com` that removes spoilers across multiple languages.
 
 ## Project structure
 
